@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+     <class name="entity.Teachers" table="TEACHERS">
+        <id name="tid" type="java.lang.String" length="5">
+           <generator class="assigned"/>
+           </id> 
+          <property name="tname" type="java.lang.String"/>
+           <property name="gender" type="java.lang.String"/>
+           <property name="courses" type="java.lang.String"></property>
+           
+           <property name="professional" type="java.lang.String"/>
+          
+     </class>
+</hibernate-mapping>
